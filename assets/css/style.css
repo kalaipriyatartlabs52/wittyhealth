@@ -1,0 +1,116 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.menu-list {
+    list-style-type: none !important;
+}
+
+.menu-list > li:hover {
+    color: #189FDA !important;
+    cursor: pointer;
+}
+
+.footer-sec {
+    font-weight: 400;
+    font-size: 15px ;
+    color: #414141;
+    line-height: 30px; 
+    padding-top:160px;
+}
+
+.our-team {
+    color: #189FDA;
+}
+
+ul {
+    padding-left: 0px !important;
+}
+
+.contact-bg {
+    background: #F7F7F7;
+    padding: 60px;
+}
+
+.contact-top {
+    padding-top: 210px;;
+}
+
+.bg-square::before {
+    content: '';
+    background: #1AA2DC !important;
+    width:50px;
+    height:51px;
+    position: absolute;
+    top: -16px;
+    left: -20px;
+    z-index: -1;
+}
+
+
+.started-heading {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.contact-heading {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    color: #282828;
+ 
+}
+
+.contact-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #737373;
+
+}
+
+.ml-6 {
+    margin-left: 20px !important;
+}
+
+.founder-name {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.bg-grey {
+    background:#fafafa
+}
+
+.square-img1 {
+    position: absolute;
+    width: 267px;
+    height: 290px;
+    right: 0px;
+    top: 0px;
+    background: #1AA2DC;
+}
+
+.news-top {
+    padding-top:166px;
+}
+
+.border-left {
+    border-left: 1px dashed rgba(0, 0, 0, 0.2) !important;
+    margin-top:-210px;
+}
+
+.news-card {
+    width: 365px;
+    height: 375px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
