@@ -139,7 +139,7 @@
 
 
 <!-- Contact us -->
-<section class="container px-2"id="contact-us">
+<section class="container" id="contact-us">
     <div class="row align-items-center gx-lg-5 gy-5">
         <div class="col-lg-9 col-12">
             <div class="contact-bg">
@@ -153,10 +153,8 @@
     </div>
 </section>
 
-
-
 <!-- Footer Section -->
-<section class=" px-2">
+<section class="px-2">
     <div class="container">
         <div class="d-flex flex-md-row flex-column flex-wrap justify-content-between footer-sec">
             <div class="p-2">
