@@ -84,17 +84,17 @@
         <div class="row g-4 pt-4">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
                 <div class="news-card d-flex justify-content-center  align-items-center">
-                    <img src="./assets/images/bloomberg-img.png" alt="bloomberg-img" class="object-fit-cover image-fluid" width="235px" height="185px">
+                    <img src="./assets/images/bloomberg-img.png" alt="bloomberg-img" class="object-fit-cover image-fluid" width="235px" height="105px">
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
                 <div class="news-card d-flex justify-content-center  align-items-center">
-                    <img src="./assets/images/yahoo-img.png" alt="yahoo-img" class="object-fit-cover" width="235px" height="185px">
+                    <img src="./assets/images/yahoo-img.png" alt="yahoo-img" class="object-fit-cover" width="235px" height="105px">
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
                 <div class="news-card d-flex justify-content-center  align-items-center">
-                    <img src="./assets/images/marketwatch-img.png" alt="marketwatch-img" class="object-fit-cover" width="235px" height="185px">
+                    <img src="./assets/images/marketwatch-img.png" alt="marketwatch-img" class="object-fit-cover" width="235px" height="105px">
                 </div>
             </div>
         </div>
