@@ -216,6 +216,7 @@ ul {
     .news-description {
         text-align: center;
     }
+
    
   }
   @media (max-width: 768px) {
@@ -246,6 +247,9 @@ ul {
     list-style: none;
     line-height: 88px;
     font-size: 15px;
+    color: #414141;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 .banner-text {
@@ -253,6 +257,7 @@ ul {
     line-height: 88px;
     color: #282828;
     font-weight: 600;
+    padding-left: 40px;
 }
 
 .menu-icons, .close-icons {
@@ -295,13 +300,20 @@ ul {
 .banner-image{
     position: relative;
     z-index: 1;
-    left: 0;
 }
 
 .banner-description {
     position: relative;
     width: 50%;
     margin-left: auto !important;
+}
+
+.banner-description p {
+    color: #414141;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
 }
 
 .quotes-image {
@@ -413,10 +425,12 @@ ul {
     width: 267px;
     height: 80px;
     background: #1AA2DC;
-    position: absolute;
-    bottom: 0;
-    right: 0;
     z-index: 0;
+    display: none;
+}
+
+.market-solution-image {
+    object-fit: cover;
 }
 @media screen and (max-width:640px) {
  
@@ -427,6 +441,7 @@ ul {
     .banner-text {
         font-size: 28px;
         line-height: 28px;
+        padding-left: 0px;
     }
 
     .banner-left-content {
@@ -480,6 +495,15 @@ ul {
         width: 75%;
         padding-block: 30px;
     }
+
+    .banner-section {
+        padding-top: 120px;
+    }
+
+    .banner-description p {
+        font-size: 15px;
+        line-height: 27px;
+    }
 }
 
 @media screen and (min-width:640px) {
@@ -489,8 +513,8 @@ ul {
     }
 
     .banner-text {
-        font-size: 36px;
-        line-height: 32px;
+        font-size: 44px;
+        line-height: 60px;
     } 
 
     .header-list > li {
@@ -594,15 +618,14 @@ ul {
     height: 650px;
 }
 
-.banner-description {
-    right: 8% !important;
-}
+
 .banner-description {
     margin-top: 175px !important;
 }
 
 .vertical-div {
-    top: -15%;
+
+    display: none;
 }
 
 
@@ -653,6 +676,7 @@ ul {
 
 }
 
+
 }
 
 @media only screen and (min-width:1200px) {
@@ -670,15 +694,10 @@ ul {
     height: 700px;
 }
 
-.banner-description {
-    right:  8% !important;
-}
+
 .vertical-div {
     top: -15%;
-}
-
-.banner-right-content {
-    left: 40px;
+    display: block;
 }
 
 .about-right-section {
@@ -692,6 +711,9 @@ ul {
 .market-solution-content {
     width: 48%;
 }
+.market-sol-bg-color {
+    display: block  ;
+}
 }
 
 
@@ -699,6 +721,7 @@ ul {
 
 .banner-image {
     width: 100%;
+    /* left: 40px; */
 }
 
 .banner-text {
@@ -710,9 +733,6 @@ ul {
     height: 750px;
 }
 
-.banner-description {
-    right: 12% !important;
-}
 
 .vertical-div {
     top: -15%;
@@ -727,6 +747,7 @@ ul {
 .market-solution-content {
     width: 40%;
 }
+
 }
 
 @media only screen and (min-width:1900px) {
@@ -739,11 +760,9 @@ ul {
  .banner-image {
     width: 751px;
     height: 500px;
+    left: 20%;
 }
 
-    .banner-description {
-        right: 10% !important;
-    }
 
     .about-right-section {
         padding-left: 130px;
@@ -751,5 +770,9 @@ ul {
 
     .market-solution-content {
         width: 32%;
+    }
+
+    .banner-text{
+        padding-left: 0px !important;
     }
 }

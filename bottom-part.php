@@ -130,10 +130,8 @@
 
 </section> 
 
-
-
 <!-- Contact us -->
-<section class="container px-2">
+<section class="container">
     <div class="row align-items-center gx-lg-5 gy-5">
         <div class="col-lg-9 col-12">
             <div class="contact-bg">
@@ -146,8 +144,6 @@
         <div>
     </div>
 </section>
-
-
 
 <!-- Footer Section -->
 <section class=" px-2">

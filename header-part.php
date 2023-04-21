@@ -39,12 +39,12 @@
 
    <!-- Banner Section  -->
     <section class="banner-section">
-      <div class="container position-relative">
+      <div class="container position-relative p-xl-0">
           <div class="row">
             <div class="col-12 col-lg-6 d-flex align-items-center banner-left-content">
               <h1 class="banner-text">Digital health tools for smarter care</h1>
             </div>
-            <div class="col-12 col-lg-6 position-relative banner-right-content mt-3 mt-lg-0">
+            <div class="col-12 col-lg-6 position-relative mt-3 mt-lg-0">
               <img src="./assets/images/banner-image.png" alt="health-care-image" class="banner-image"/>
             </div>
           </div>
@@ -91,11 +91,11 @@
               </div>
           </div>
           <div class="market-solution-right-side">
-              <img src="./assets/images/market-solution.png" alt="market-solution" class="w-100"/>
+              <img src="./assets/images/market-solution.png" alt="market-solution" class="w-100 h-100 market-solution-image"/>
           </div>
         </div>
       </div>
-      <div class="container position-relative">
+      <div class="container d-flex justify-content-end">
           <div class="market-sol-bg-color"></div>
       </div>
     </section>
