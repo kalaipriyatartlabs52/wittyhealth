@@ -28,7 +28,7 @@
         </div>
         <div class="square-img1">
         </div>
-        <div class="row">
+        <div class="row gx-3">
             <div class="col-4 news-card d-flex justify-content-center  align-items-center">
                 <img src="./assets/images/bloomberg-img.png" alt="bloomberg-img" class="object-fit-cover" width="292px" height="185px">
             </div>
