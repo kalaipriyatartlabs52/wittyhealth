@@ -21,7 +21,7 @@
 
 <!-- count section -->
 <section class="countsec-bg pt-3 pb-77 count-section">
-    <div class="container">
+    <div class="container px-5">
         <div class="pb-4">
             <h2 class="count-heading">OncoPower by the numbers</h2>
         </div>
@@ -45,10 +45,10 @@
 </section>
 
 <!-- Our Products  -->
-<section class="product-bg">
+<section class="product-bg"id="products">
     <div class="container position-relative">
         <div class="px-5 product-top product-bottom">
-            <h2 class="position-relative news-heading ourproduct">Our Products</h2>
+            <h2 class="position-relative news-heading ourproduct">Our Products!</h2>
         </div>
         <div class="square-top d-none d-xl-block">
         </div>
@@ -104,41 +104,47 @@
 </section>
 
 <!-- Founder section -->
-<section class="container border-left mt-5 founder-bottom">
-    <div class="d-flex flex-row gap-3 flex-wrap justify-content-lg-start justify-content-center ">
-        <div class="">
-            <img src="./assets/images/ramsesha-img.png" alt="ramsesha-img" class="object-fit-cover" width="258px" height="265px">
+<section class="container border-left mt-5 founder-bottom" id="our-team">
+    <div class="row g-2">
+        <div class="col-lg-3 col-md-6 col-12">
+            <img src="./assets/images/ramsesha-img.png" alt="ramsesha-img" class="object-fit-cover img-fluid" width="100%" height="265px">
             <h6 class="px-3 pt-3 founder-name">Ram Sesha<br>Cofounder & CEO</h6>
         </div>
-        <div class="">
-            <img src="./assets/images/michaelseidan-img.png" alt="michaelseidan-img" class="object-fit-cover" width="258px" height="265px">
+        <div class="col-lg-3 col-md-6 col-12">
+            <img src="./assets/images/michaelseidan-img.png" alt="michaelseidan-img" class="object-fit-cover img-fluid" width="100%" height="265px">
             <h6 class="px-3 pt-3 founder-name">Michael Seiden<br> Strategic advisor, Former<br> President of US Oncology</h2>
         </div>
-        <div class="">
-            <img src="./assets/images/girl-img.png" alt="girl-img" class="object-fit-cover" width="258px" height="265px">
+        <div class="col-lg-3 col-md-6 col-12">
+            <img src="./assets/images/girl-img.png" alt="girl-img" class="object-fit-cover img-fluid" width="100%" height="265px">
             <h6 class="px-3 pt-3 founder-name">Name Name<br> Cofounder & COO</h6>
         </div>  
-        <div class="">
-            <img src="./assets/images/rachelspencer-img.png" alt="rachelspencer-img" class="object-fit-cover" width="258px" height="265px"> 
-            <h6 class="px-3 pt-3 founder-name">Rachel Spencer<br>Director of nutrition</h6>
-        </div>    
-        <div class="">
-                <img src="./assets/images/keithmoore-img.png" alt="keithmoore-img" class="object-fit-cover" width="258px" height="265px"> 
-                <h6 class="px-3 pt-3 founder-name">Keith Moore <br>VP of product</h6>
+        <div class="col-lg-3 col-md-6 col-12">
         </div>  
     </div>
-
+    <div class="row g-2 mt-5">
+        <div class="col-lg-3 col-md-6 col-12">
+            <img src="./assets/images/rachelspencer-img.png" alt="rachelspencer-img" class="object-fit-cover img-fluid" width="100%" height="265px"> 
+            <h6 class="px-3 pt-3 founder-name">Rachel Spencer<br>Director of nutrition</h6>
+        </div>    
+        <div class="col-lg-3  col-md-6 col-12">
+            <img src="./assets/images/keithmoore-img.png" alt="keithmoore-img" class="object-fit-cover img-fluid" width="100%" height="265px"> 
+            <h6 class="px-3 pt-3 founder-name">Keith Moore <br>VP of product</h6>
+        </div>
+        <div class="col-3"> 
+        </div> 
+        <div class="col-3">
+        </div>
+    </div>
 </section>
 
 
-
 <!-- Contact us -->
-<section class="container px-2">
+<section class="container px-2"id="contact-us">
     <div class="row align-items-center gx-lg-5 gy-5">
         <div class="col-lg-9 col-12">
             <div class="contact-bg">
                 <h3 class="contact-heading">Interested in learning more?</h3>
-                <p class="pt-5 contact-description">Contact us: info@wittyhealth.com</p>
+                <p class="pt-5"><a href="mailto:Contact us: info@wittyhealth.com" class="contact-description">Contact us: info@wittyhealth.com</a></p>
             </div>
         </div>
         <div class="col-lg-3 col-12">
@@ -152,15 +158,15 @@
 <!-- Footer Section -->
 <section class=" px-2">
     <div class="container">
-        <div class="d-flex flex-row flex-wrap justify-content-between footer-sec">
+        <div class="d-flex flex-md-row flex-column flex-wrap justify-content-between footer-sec">
             <div class="p-2">
                 <div class="pb-5 ">
                     <img src="./assets/images/witty-logo.png" alt="witty-logo" class="object-fit-cover" width="125px" height="50px">
                 </div>
                 <div class="">
-                    <img src="./assets/images/facebook-logo.svg" alt="facebook-logo" class="object-fit-cover pr-4" width="19px" height="19px">
-                    <img src="./assets/images/twitter-logo.svg" alt="twitter-logo" class="object-fit-cover" width="19px" height="19px">
-                    <img src="./assets/images/linkedin-logo.svg" alt="linkedin-logo" class="object-fit-cover" width="19px" height="19px">
+                    <img src="./assets/images/facebook-logo.svg" alt="facebook-logo" class="object-fit-cover social-media" width="19px" height="19px">
+                    <img src="./assets/images/twitter-logo.svg" alt="twitter-logo" class="object-fit-cover social-media" width="19px" height="19px">
+                    <img src="./assets/images/linkedin-logo.svg" alt="linkedin-logo" class="object-fit-cover social-media" width="19px" height="19px">
                 </div>
             </div>
             <div class="p-2">
@@ -169,21 +175,21 @@
             </div>
             <div class="p-2">
                 <ul class="menu-list">
-                    <li class="our-team">Our Team</li>
-                    <li>About Us</li>
-                    <li>Our Team</li>
-                    <li>Products</li>
-                    <li>Contact Us</li>
+                    <li><a href="#our-team">Our Team</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#our-team">Our Team</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
                 </ul>
             </div>
             <div class="p-2">
                 <ul class="menu-list">
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Linkedin</li>
+                    <li><a href=" https://www.facebook.com/OncoPower.io?mibextid=LQQJ4d">Facebook</a></li>
+                    <li><a href="#https://twitter.com/oncopower?s=11&t=QZoikRzCoFANCBxBx0CP5AFacebook">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/company/witty-health-inc/">Linkedin</li>
                 <ul>
             </div>
-            <div class="p-2">
+            <div class="p-2 text-center">
                 <p>© Copyright 2023.<br>
                  All Rights Reserved.
                 </p>

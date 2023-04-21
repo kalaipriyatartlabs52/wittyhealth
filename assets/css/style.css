@@ -11,21 +11,12 @@ body {
     list-style-type: none !important;
 }
 
-.menu-list > li:hover {
-    color: #189FDA !important;
-    cursor: pointer;
-}
-
 .footer-sec {
     font-weight: 400;
     font-size: 15px ;
     color: #414141;
     line-height: 30px; 
     padding-top:160px;
-}
-
-.our-team {
-    color: #189FDA;
 }
 
 ul {
@@ -72,8 +63,11 @@ ul {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #737373;
+    color: #737373 !important;
+}
 
+.social-media {
+    margin-right:8px !important;
 }
 
 .ml-6 {
@@ -142,12 +136,14 @@ ul {
     font-weight: 400;
     font-size: 35px;
     color: #282828;
+    line-height: 42px;
 }
 
 .news-description {
     font-weight: 400;
     font-size: 17px;
     color: #414141;
+    line-height: 26px;
 }
 
 .product-top {
@@ -184,12 +180,14 @@ ul {
     font-weight: 500;
     font-size: 25px;
     color: #282828;
+    line-height: 40px;
 }
 
 .count-num {
     font-weight: 600;
     font-size: 35px;
     color: #1AA2DC; 
+    line-height: 42px;
 }
 
 .count-description {
@@ -197,6 +195,16 @@ ul {
     font-size: 15px;
     color: #737373;
 }
+
+a {
+    color: #414141 !important;
+    text-decoration: none !important;
+}
+a:hover {
+    color:#189FDA !important;
+    cursor:pointer;
+}
+
 
 
 @media (max-width: 662px) {
@@ -235,6 +243,14 @@ ul {
     }
     .footer-sec {
         padding-top:80px !important;;
+    }
+    .news-heading {
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .contact-heading {
+        font-size: 24px;
+        line-height: 42px;
     }
   }
 
