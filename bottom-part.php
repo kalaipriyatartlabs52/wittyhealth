@@ -19,35 +19,93 @@
 </head>
 <body>
 
-<!-- News section -->
-<!-- <section class="bg-grey pb-5">
-    <div class="container position-relative">
-        <div class="px-5 news-top">
-            <h2 class="pb-4">Witty Health in The News</h2>
-            <p>We believe that inclusivity and collaboration is essential in delivering both a<br> meaningful product to the user while working to drive down costs in <br>healthcare. Here are a few of the partnerships we've secured along the way.</p>
-        </div>
-        <div class="square-img1">
+<!-- count section -->
+<section class="countsec-bg pt-3 pb-77 count-section">
+    <div class="container">
+        <div class="pb-4">
+            <h2 class="count-heading">OncoPower by the numbers</h2>
         </div>
         <div class="row">
-            <div class="col-4 news-card d-flex justify-content-center  align-items-center">
-                <img src="./assets/images/bloomberg-img.png" alt="bloomberg-img" class="object-fit-cover" width="292px" height="185px">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <h3 class="count-num">6000+</h3>
+                <p class="pt-2 count-description">Users</p>
             </div>
-            <div class="col-4 news-card d-flex justify-content-center  align-items-center">
-                <img src="./assets/images/yahoo-img.png" alt="yahoo-img" class="object-fit-cover" width="292px" height="185px">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <h3 class="count-num">12000+</h3>
+                <p class="pt-2 count-description">impressions </p>
             </div>
-            <div class="col-4 news-card d-flex justify-content-center  align-items-center">
-             <img src="./assets/images/marketwatch-img.png" alt="marketwatch-img" class="object-fit-cover" width="292px" height="185px">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <h3 class="count-num">>200% YOY growth</h3>
+                <p class="pt-2 count-description">capital returned to<br>
+                investors in 24 months</p>
             </div>
+        </div>
+      
+    </div>
+</section>
 
+<!-- Our Products  -->
+<section class="product-bg">
+    <div class="container position-relative">
+        <div class="px-5 product-top product-bottom">
+            <h2 class="position-relative news-heading ourproduct">Our Products</h2>
+        </div>
+        <div class="square-top d-none d-xl-block">
+        </div>
+         <div class="row g-4 pb-3">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+            <div class="news-card d-flex justify-content-center  align-items-center">
+                <img src="./assets/images/kardiopower-img.png" alt="kardiopower-img" class="object-fit-cover" width="235px" height="105px">
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+            <div class="news-card d-flex justify-content-center  align-items-center">
+                <img src="./assets/images/renalpower-img.png" alt="renalpower-img" class="object-fit-cover" width="235px" height="127px">
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+            <div class="news-card d-flex justify-content-center  align-items-center">
+            <img src="./assets/images/oncopower-img.png" alt="oncopower-img" class="object-fit-cover" width="235px" height="105px">
+            </div>
+            </div>
         </div>
     <div>
+</section>
 
-
-</section> -->
+<!-- News section -->
+<section class="bg-grey news-bottom">
+    <div class="container position-relative">
+        <div class="px-5 news-top">
+            <h2 class="pb-4 position-relative witty-health news-heading">Witty Health in The News</h2>
+            <p class="news-description">We believe that inclusivity and collaboration is essential in delivering both a<br> meaningful product to the user while working to drive down costs in <br>healthcare. Here are a few of the partnerships we've secured along the way.</p>
+        </div>
+        <div class="square-top d-none d-xl-block">
+        </div>
+        <div class="row g-4 pt-4">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                <div class="news-card d-flex justify-content-center  align-items-center">
+                    <img src="./assets/images/bloomberg-img.png" alt="bloomberg-img" class="object-fit-cover image-fluid" width="235px" height="105px">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                <div class="news-card d-flex justify-content-center  align-items-center">
+                    <img src="./assets/images/yahoo-img.png" alt="yahoo-img" class="object-fit-cover" width="235px" height="105px">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                <div class="news-card d-flex justify-content-center  align-items-center">
+                    <img src="./assets/images/marketwatch-img.png" alt="marketwatch-img" class="object-fit-cover" width="235px" height="105px">
+                </div>
+            </div>
+        </div>
+        <div class="square-bottom d-none d-xl-block">
+       </div>
+    <div>
+</section>
 
 <!-- Founder section -->
-<!-- <section class="container mt-5 border-left">
-    <div class="d-flex flex-row gap-3 flex-wrap justify-content-lg-start justify-content-center">
+<section class="container border-left mt-5 founder-bottom">
+    <div class="d-flex flex-row gap-3 flex-wrap justify-content-lg-start justify-content-center ">
         <div class="">
             <img src="./assets/images/ramsesha-img.png" alt="ramsesha-img" class="object-fit-cover" width="258px" height="265px">
             <h6 class="px-3 pt-3 founder-name">Ram Sesha<br>Cofounder & CEO</h6>
@@ -70,12 +128,12 @@
         </div>  
     </div>
 
-</section> -->
+</section> 
 
 
 
 <!-- Contact us -->
-<!-- <section class="contact-top container px-2">
+<section class="container px-2">
     <div class="row align-items-center gx-lg-5 gy-5">
         <div class="col-lg-9 col-12">
             <div class="contact-bg">
@@ -87,12 +145,12 @@
             <p class="text-uppercase fw-medium started-heading bg-square position-relative z-1 ml-6">Let’s Get Started</p>
         <div>
     </div>
-</section> -->
+</section>
 
 
 
 <!-- Footer Section -->
-<!-- <section class=" px-2">
+<section class=" px-2">
     <div class="container">
         <div class="d-flex flex-row flex-wrap justify-content-between footer-sec">
             <div class="p-2">
@@ -132,7 +190,7 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 
 </body>

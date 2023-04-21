@@ -37,9 +37,10 @@ ul {
     padding: 60px;
 }
 
-.contact-top {
-    padding-top: 210px;;
+.founder-bottom {
+    padding-bottom: 210px;
 }
+
 
 .bg-square::before {
     content: '';
@@ -94,12 +95,22 @@ ul {
     background:#fafafa
 }
 
-.square-img1 {
+
+.square-top {
     position: absolute;
     width: 267px;
     height: 290px;
-    right: 0px;
+    right:24px;
     top: 0px;
+    background: #1AA2DC;
+}
+
+.square-bottom {
+    position: absolute;
+    width: 50px;
+    height: 51px;
+    left: 1165px;
+    top: 773px;
     background: #1AA2DC;
 }
 
@@ -107,17 +118,130 @@ ul {
     padding-top:166px;
 }
 
+.news-bottom {
+    padding-bottom:193px;
+}
+
 .border-left {
     border-left: 1px dashed rgba(0, 0, 0, 0.2) !important;
-    margin-top:-210px;
 }
 
 .news-card {
-    width: 365px;
     height: 375px;
     background: #FFFFFF;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 }
+
+.witty-health::after {
+    content:''; 
+    position:absolute;
+    width: 220px;
+    height: 9px;
+    left: 0px;
+    top: 26px;
+    background: rgba(162, 0, 0, 0.2);
+}
+
+.news-heading {
+    font-weight: 400;
+    font-size: 35px;
+    color: #282828;
+}
+
+.news-description {
+    font-weight: 400;
+    font-size: 17px;
+    color: #414141;
+}
+
+.product-top {
+    padding-top:185px;
+}
+
+.product-bottom {
+    padding-bottom:113px;
+}
+
+.product-bg {
+    background:#f9f9f9;
+}
+
+.ourproduct::after {
+    content:'';
+    position: absolute;
+    width: 222px;
+    height: 9px;
+    left: 218px;
+    top: 31px;
+    background: rgba(162, 0, 0, 0.2);
+}
+
+.countsec-bg {
+    background: #FBFBFB;
+}
+
+.pb-77 {
+    padding-bottom:77px;
+} 
+
+.count-heading {
+    font-weight: 500;
+    font-size: 25px;
+    color: #282828;
+}
+
+.count-num {
+    font-weight: 600;
+    font-size: 35px;
+    color: #1AA2DC; 
+}
+
+.count-description {
+    font-weight: 400;
+    font-size: 15px;
+    color: #737373;
+}
+
+
+@media (max-width: 662px) {
+    .witty-health::after {
+      display: none;
+    }
+    .ourproduct::after {
+        display: none;
+      }
+    .news-heading {
+        text-align: center;
+    }
+    .news-description {
+        text-align: center;
+    }
+   
+  }
+  @media (max-width: 768px) {
+    .count-section {
+        text-align: center;
+    }
+    .news-top {
+        padding-top:60px;
+    }
+    .news-bottom {
+        padding-bottom:60px;
+    }
+    .product-top {
+        padding-top:60px;
+    }
+    .product-bottom {
+        padding-bottom:60px;
+    }
+    .founder-bottom {
+        padding-bottom:60px !important;
+    }
+    .footer-sec {
+        padding-top:80px !important;;
+    }
+  }
+
 .header-list > li {
     list-style: none;
     line-height: 88px;
