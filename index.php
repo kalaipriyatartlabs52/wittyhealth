@@ -11,6 +11,7 @@
 
 <body>
 <?php include_once('header-part.php'); ?>
+
 <?php include_once('bottom-part.php'); ?>
 </body>
 

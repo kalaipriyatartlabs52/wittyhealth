@@ -20,7 +20,7 @@
 <body>
 
 <!-- News section -->
-<section class="bg-grey pb-5">
+<!-- <section class="bg-grey pb-5">
     <div class="container position-relative">
         <div class="px-5 news-top">
             <h2 class="pb-4">Witty Health in The News</h2>
@@ -43,10 +43,10 @@
     <div>
 
 
-</section>
+</section> -->
 
 <!-- Founder section -->
-<section class="container mt-5 border-left">
+<!-- <section class="container mt-5 border-left">
     <div class="d-flex flex-row gap-3 flex-wrap justify-content-lg-start justify-content-center">
         <div class="">
             <img src="./assets/images/ramsesha-img.png" alt="ramsesha-img" class="object-fit-cover" width="258px" height="265px">
@@ -70,12 +70,12 @@
         </div>  
     </div>
 
-</section>
+</section> -->
 
 
 
 <!-- Contact us -->
-<section class="contact-top container px-2">
+<!-- <section class="contact-top container px-2">
     <div class="row align-items-center gx-lg-5 gy-5">
         <div class="col-lg-9 col-12">
             <div class="contact-bg">
@@ -87,12 +87,12 @@
             <p class="text-uppercase fw-medium started-heading bg-square position-relative z-1 ml-6">Let’s Get Started</p>
         <div>
     </div>
-</section>
+</section> -->
 
 
 
 <!-- Footer Section -->
-<section class=" px-2">
+<!-- <section class=" px-2">
     <div class="container">
         <div class="d-flex flex-row flex-wrap justify-content-between footer-sec">
             <div class="p-2">
@@ -132,7 +132,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 </body>
