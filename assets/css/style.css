@@ -610,159 +610,155 @@ ul {
         display: block;
     }
     
-.banner-image {
-    width: 100%;
-}
+    .banner-image {
+        width: 100%;
+    }
 
-.vertical-div {
-    height: 650px;
-}
+    .vertical-div {
+        height: 650px;
+    }
 
+    .banner-description {
+        margin-top: 175px !important;
+    }
 
-.banner-description {
-    margin-top: 175px !important;
-}
+    .vertical-div {
+        display: none;
+    }
 
-.vertical-div {
+    .about-right-section {
+        padding-left: 70px;
+    }
 
-    display: none;
-}
+    .about-right-content { 
+        width: 65%;
+    }
 
+    .header {
+        z-index: 0;
+    }
 
-.about-right-section {
-    padding-left: 70px;
-}
+    .grid {
+        grid-template-columns: auto auto !important;
+    }
 
-.about-right-content { 
-    width: 65%;
-}
+    .about-right-section {
+        top: 45px;
+    }
 
-.header {
-    z-index: 0;
-}
+    .about-right-section {
+        margin-left: -50px;
+        padding-inline: 0px;
+    }
 
-.grid {
-    grid-template-columns: auto auto !important;
-}
-.about-right-section {
-    top: 45px;
-}
+    .about-right-section {
+        padding-left: 80px;
+    }
 
-.about-right-section {
-    margin-left: -50px;
-    padding-inline: 0px;
-}
+    .about-right-section::before {
+        display: block; 
+    }
 
-.about-right-section {
-    padding-left: 80px;
-}
+    .market-solution-content {
+        width: 90%;
+        padding-block: 30px;
+    }
 
-.about-right-section::before {
-    display: block;
-}
-.market-solution-content {
-    width: 90%;
-    padding-block: 30px;
-}
-.market-solution-right-side {
-    margin-left: -100px;
-}
-.market-solution-left-side {
-    top: -40px;
-}
+    .market-solution-right-side {
+        margin-left: -100px;
+    }
 
-.market-solution {
-    margin-top: 170px;
+    .market-solution-left-side {
+        top: -40px;
+    }
 
-}
-
-
+    .market-solution {
+        margin-top: 170px;
+    }
 }
 
 @media only screen and (min-width:1200px) {
  
-.banner-text {
-    font-size: 44px;
-    line-height: 60px;
-}
+    .banner-text {
+        font-size: 44px;
+        line-height: 60px;
+    }
 
-.banner-image {
-    width: 100%;
-}
+    .banner-image {
+        width: 100%;
+    }
 
-.vertical-div {
-    height: 700px;
-}
+    .vertical-div {
+        height: 700px;
+    }
 
+    .vertical-div {
+        top: -15%;
+        display: block;
+    }
 
-.vertical-div {
-    top: -15%;
-    display: block;
-}
+    .about-right-section {
+        padding-left: 100px;
+    }
 
-.about-right-section {
-    padding-left: 100px;
-}
+    .about-right-content { 
+        width: 55%;
+    }
 
-.about-right-content { 
-    width: 55%;
-}
+    .market-solution-content {
+        width: 48%;
+    }
 
-.market-solution-content {
-    width: 48%;
-}
-.market-sol-bg-color {
-    display: block  ;
-}
+    .market-sol-bg-color {
+        display: block ;
+    }
 }
 
 
 @media only screen and (min-width:1400px) {
 
-.banner-image {
-    width: 100%;
-    /* left: 40px; */
-}
+    .banner-image {
+        width: 100%;
+    }
 
-.banner-text {
-    font-size: 74px;
-    line-height: 88px;
-}
+    .banner-text {
+        font-size: 74px;
+        line-height: 88px;
+    }
 
-.vertical-div {
-    height: 750px;
-}
+    .vertical-div {
+        height: 750px;
+    }
 
+    .vertical-div {
+        top: -15%;
+    }
 
-.vertical-div {
-    top: -15%;
-}
+    .about-right-section {
+        padding-left: 120px;
+    }
 
-.about-right-section {
-    padding-left: 120px;
-}
-.about-right-content { 
-    width: 45%;
-}
-.market-solution-content {
-    width: 40%;
-}
+    .about-right-content { 
+        width: 45%;
+    }
 
+    .market-solution-content {
+        width: 40%;
+    }
 }
 
 @media only screen and (min-width:1900px) {
 
- .vertical-div {
-    height: 818px;
-    top: -15%;
-    /* left: 30%; */
-}
- .banner-image {
-    width: 751px;
-    height: 500px;
-    left: 20%;
-}
-
+    .vertical-div {
+        height: 818px;
+        top: -15%;
+    }
+    
+    .banner-image {
+        width: 751px;
+        height: 500px;
+        left: 20%;
+    }
 
     .about-right-section {
         padding-left: 130px;
