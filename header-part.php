@@ -49,7 +49,6 @@
             </div>
           </div>
           <div class="vertical-div"></div>
-
           <div class="row">
               <div class="col-sm-6 col-9 ps-0 ps-md-3 banner-description">
                 <img src="./assets/images/quotes-image.png" alt="quotes.png" class="quotes-image"/>
@@ -84,11 +83,12 @@
       <div class="container-fluid p-0 market-solution">
         <div class="grid">
           <div class="market-solution-left-side">
-             <!-- <div class="dotted-line"></div> -->
               <div class="market-solution-content">
                 <h3>OncoPower is our core <br/> brand and first in <br/> <span class="market-solution-empty-div position-relative">market solution.</span> </h3>
-                <p>Witty Health has several products, each focused on a specialty care market. Each product has an ecosystem of resources for the respective discipline that streamline care access and support both the patient and provider. OncoPower focuses on cancer care and is Witty Health's first brand in market and growing rapidly.</p>
+                <p class="mb-5 fw-normal market-solution-content-description">Witty Health has several products, each focused on a specialty care market. Each product has an ecosystem of resources for the respective discipline that streamline care access and support both the patient and provider. OncoPower focuses on cancer care and is Witty Health's first brand in market and growing rapidly.</p>
+                <p class="text-uppercase fw-semibold see-our-team bg-square position-relative ms-4">See Our Team</p>
               </div>
+              
           </div>
           <div class="market-solution-right-side">
               <img src="./assets/images/market-solution.png" alt="market-solution" class="w-100 h-100 market-solution-image"/>
