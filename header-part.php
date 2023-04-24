@@ -40,17 +40,17 @@
    <!-- Banner Section  -->
     <section class="banner-section">
       <div class="container position-relative p-xl-0">
-          <div class="row">
+          <div class="row me-0">
             <div class="col-12 col-lg-6 d-flex align-items-center banner-left-content">
-              <h1 class="banner-text">Digital health tools for smarter care</h1>
+              <h1 class="banner-text">Digital health <br/> tools for smarter <br/> care</h1>
             </div>
-            <div class="col-12 col-lg-6 position-relative mt-3 mt-lg-0">
+            <div class="col-12 col-lg-6 position-relative mt-3 mt-lg-0 p-0">
               <img src="./assets/images/banner-image.png" alt="health-care-image" class="banner-image"/>
             </div>
           </div>
           <div class="vertical-div"></div>
-          <div class="row">
-              <div class="col-sm-6 col-9 ps-0 ps-md-3 banner-description">
+          <div class="row me-0 p-0">
+              <div class="col-sm-8 col-9 p-0 banner-description">
                 <img src="./assets/images/quotes-image.png" alt="quotes.png" class="quotes-image"/>
                 <p class="text-end">Witty Health was founded on the core principle that tech can help bring down cost of healthcare while increasing access. We build digital platforms that create a supportive, specialized community and help bring a wide range of tools right to the pockets of patients and caregivers.</p>
               </div>
@@ -59,7 +59,7 @@
     </section>
 
     <!-- About witty Health  -->
-    <section>
+    <section id="about-us">
       <div class="container-fluid about-section p-0">
           <div class="grid m-0">
               <div class="px-3 px-md-0">
@@ -70,7 +70,7 @@
               <div class="about-right-section d-flex align-items-center">
                 <div class="about-right-content">
                   <h2>About Witty Health</h2>
-                  <p>We focus on specialty care, learn the specific pain points for patients and providers, and then build out an ecosystem of tools that support the end user.</p>
+                  <p >We focus on specialty care, learn the specific pain points for patients and providers, and then build out an ecosystem of tools that support the end user.</p>
                   <div class="about-inside-empty"></div>
                 </div>
               </div>
@@ -85,10 +85,9 @@
           <div class="market-solution-left-side">
               <div class="market-solution-content">
                 <h3>OncoPower is our core <br/> brand and first in <br/> <span class="market-solution-empty-div position-relative">market solution.</span> </h3>
-                <p class="mb-5 fw-normal market-solution-content-description">Witty Health has several products, each focused on a specialty care market. Each product has an ecosystem of resources for the respective discipline that streamline care access and support both the patient and provider. OncoPower focuses on cancer care and is Witty Health's first brand in market and growing rapidly.</p>
-                <p class="text-uppercase fw-semibold see-our-team bg-square position-relative ms-4">See Our Team</p>
+                <p class="fw-normal market-solution-content-description">Witty Health has several products, each focused on a specialty care market. Each product has an ecosystem of resources for the respective discipline that streamline care access and support both the patient and provider. OncoPower focuses on cancer care and is Witty Health's first brand in market and growing rapidly.</p>
+                <p class="text-uppercase fw-semibold see-our-team position-relative ms-4">See Our Team</p>
               </div>
-              
           </div>
           <div class="market-solution-right-side">
               <img src="./assets/images/market-solution.png" alt="market-solution" class="w-100 h-100 market-solution-image"/>
