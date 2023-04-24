@@ -182,8 +182,8 @@
             </div>
             <div class="p-2">
                 <ul class="menu-list">
-                    <li><a href=" https://www.facebook.com/OncoPower.io?mibextid=LQQJ4d">Facebook</a></li>
-                    <li><a href="#https://twitter.com/oncopower?s=11&t=QZoikRzCoFANCBxBx0CP5AFacebook">Twitter</a></li>
+                    <li><a href="https://www.facebook.com/OncoPower.io?mibextid=LQQJ4d">Facebook</a></li>
+                    <li><a href="https://twitter.com/oncopower?s=11&t=QZoikRzCoFANCBxBx0CP5AFacebook">Twitter</a></li>
                     <li><a href="https://www.linkedin.com/company/witty-health-inc/">Linkedin</li>
                 <ul>
             </div>
