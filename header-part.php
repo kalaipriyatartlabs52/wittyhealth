@@ -86,7 +86,7 @@
               <div class="market-solution-content">
                 <h3>OncoPower is our core <br/> brand and first in <br/> <span class="market-solution-empty-div position-relative">market solution.</span> </h3>
                 <p class="fw-normal market-solution-content-description">Witty Health has several products, each focused on a specialty care market. Each product has an ecosystem of resources for the respective discipline that streamline care access and support both the patient and provider. OncoPower focuses on cancer care and is Witty Health's first brand in market and growing rapidly.</p>
-                <p class="text-uppercase fw-semibold see-our-team bg-square position-relative ms-4">See Our Team</p>
+                <p class="text-uppercase fw-semibold see-our-team position-relative ms-4">See Our Team</p>
               </div>
           </div>
           <div class="market-solution-right-side">

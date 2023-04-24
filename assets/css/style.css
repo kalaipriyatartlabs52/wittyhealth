@@ -454,6 +454,8 @@ a:hover {
     width: 50px;
     height: 51px;
     z-index: -1;
+    left: -20px;
+    top: -16px;
 }
 
 .see-our-team {
@@ -566,7 +568,7 @@ a:hover {
     }
 
     .market-solution-content-description {
-        margin-block: 16px !important;
+        margin-block: 26px !important;
     }
 
     .about-right-content h2 {
@@ -710,7 +712,7 @@ a:hover {
     }
 
     .about-right-content { 
-        width: 65%;
+        width: 75%;
         padding-inline: 0px;
     }
 
@@ -726,8 +728,7 @@ a:hover {
         top: 45px;
         margin-left: -50px;
         padding-inline: 0px;
-        padding-left: 60px;
-
+        padding-left: 16px;
     }
 
     .about-right-section::before {
