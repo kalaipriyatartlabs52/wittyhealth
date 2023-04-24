@@ -568,6 +568,10 @@ a:hover {
     .market-solution-content-description {
         margin-block: 16px !important;
     }
+
+    .about-right-content h2 {
+        font-size: 24px;
+    }
 }
 
 @media screen and (min-width:640px) {
@@ -603,6 +607,7 @@ a:hover {
 
     .about-right-content { 
         width: 100%;
+        padding-inline: 16px;
     }
 
     .grid {
@@ -658,6 +663,7 @@ a:hover {
 
     .about-right-content { 
         width: 100%;
+        padding-inline: 16px;
     }
 
     .header {
@@ -705,6 +711,7 @@ a:hover {
 
     .about-right-content { 
         width: 65%;
+        padding-inline: 0px;
     }
 
     .header {
